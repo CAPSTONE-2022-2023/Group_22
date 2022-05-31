@@ -20,7 +20,7 @@ There are a number of third party libraries/APIs that might be used as the appli
 [Stripe](https://stripe.com/en-ca) could be used to enable different payment methods such as Apple Pay, PayPal for users while using the application.
 
 ## Front-End
-[SwiftUI](https://developer.apple.com/xcode/swiftui/) or [UIKit](https://developer.apple.com/documentation/uikit) will be used to create a responsive user interface that can be run by any iOS 13+ devices.
+[SwiftUI](https://developer.apple.com/xcode/swiftui/) or [UIKit](https://developer.apple.com/documentation/uikit) will be used to create a responsive user interface that can be displayed by any iOS 13+ devices.
 
 ## Developing Tools
 This application is developed using [Xcode](https://apps.apple.com/ca/app/xcode/id497799835?mt=12) for Front-End development and [WebStorm IDE](https://www.jetbrains.com/webstorm/) for Back-End development. Moreover, [Postman](https://www.postman.com) is used to make HTTP requests and is only used in the development phase of the project and for testing purposes.
