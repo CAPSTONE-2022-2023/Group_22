@@ -9,7 +9,7 @@
 
 *Current Version: 1.0*
 
-*Project Manager (and sponsor):*
+*Project Manager (and sponsor): Alireza Zahedi, Hyungi Lee, Jackson Yeung, Niaz Ghobadi*
 
 ## 2. Overview
 
