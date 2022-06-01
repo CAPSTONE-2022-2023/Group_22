@@ -1,8 +1,7 @@
-
 # Sapor's Mobile Application
 
 ## 1. Introduction
-This project aims at creating an iOS application for a restaurant. There will be several features that are only available to the manager and staff of the restaurant, such as logging in and modifying the menu. But the main focus of this application is to make online ordering, reserving tables, checking availability, etc., more convenient for customers. This application will also include online payment, authentication and other essential features.
+This project aims at creating an iOS application called Sapor, which includes online payments, authentication and a couple of role-dependent features. The main features of Sapor are online ordering and table reservations for customers of the restaurant.
 
 *Jun 1st, 2022*
 
@@ -11,5 +10,4 @@ This project aims at creating an iOS application for a restaurant. There will be
 *Project Manager (and sponsor): Alireza Zahedi, Hyungi Lee, Jackson Yeung, Niaz Ghobadi*
 
 ## 2. Overview
-
 Alireza Zahedi, Hyungi Lee, Jackson Yeung, Niaz Ghobadi, students at Seneca College, are developing an iOS application used for online ordering and table reservation.
