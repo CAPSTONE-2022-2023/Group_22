@@ -3,7 +3,7 @@
 ## Back-End
 
 ### ExpressJS
-[ExpressJS](https://expressjs.com) is used to create a REST API which will have the functionality to link the database to the application. The REST API will be deloployed on [Heroku](https://www.heroku.com).
+[ExpressJS](https://expressjs.com) is used to create a REST API which will have the functionality to link the database to the application. The REST API will be deployed on [Heroku](https://www.heroku.com).
 
 ### MongoDB
 [MongoDB](https://www.mongodb.com) is used to query any required information and will be accessible by our REST API.
@@ -17,7 +17,7 @@ There are a number of third party libraries/APIs that might be used as the appli
 
 
 ### Stripe
-[Stripe](https://stripe.com/en-ca) could be used to enable different payment methods such as Apple Pay, PayPal for users while using the application.
+[Stripe](https://stripe.com/en-ca) could be used to enable different payment methods such as Apple Pay, and PayPal for users while using the application.
 
 ## Front-End
 [SwiftUI](https://developer.apple.com/xcode/swiftui/) or [UIKit](https://developer.apple.com/documentation/uikit) will be used to create a responsive user interface that can be displayed by any iOS 13+ devices.
