@@ -2,8 +2,8 @@
 
 ### Project Charter
 
-#### Introduction 
-Make sure to spell out the features that you are mentioning. To be done by the end of the day.
+#### Introduction (5/5)
+Make sure to spell out the features that you are mentioning. To be done by the end of the day. Done!!!
 
 #### Overview (5/5)
 Well done!
