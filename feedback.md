@@ -1,4 +1,4 @@
-## Task 2
+## Task 2 (/20)
 
 ### Project Charter
 
@@ -8,5 +8,5 @@ Make sure to spell out the features that you are mentioning. To be done by the e
 #### Overview (5/5)
 Well done!
 
-### Technical Details
+### Technical Details (10/10)
 Well done! Again, I want to emphisize that all students need to haev access to the required tools.
