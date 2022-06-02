@@ -1,7 +1,7 @@
 # Sapor's Mobile Application
 
 ## 1. Introduction
-This project aims at creating an iOS application called Sapor, which includes online payments, authentication and a couple of role-dependent features. The main features of Sapor are online ordering and table reservations for customers of the restaurant.
+This project aims at creating an iOS application called Sapor, which includes different payment methods, authentication and a couple of role-dependent features. The main features of Sapor are online ordering and table reservations for customers of the restaurant.
 
 *Jun 1st, 2022*
 
