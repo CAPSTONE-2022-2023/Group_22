@@ -10,4 +10,4 @@ This project aims at creating an iOS application called Sapor, which includes di
 *Project Manager (and sponsor): Alireza Zahedi, Hyungi Lee, Jackson Yeung, Niaz Ghobadi*
 
 ## 2. Overview
-Alireza Zahedi, Hyungi Lee, Jackson Yeung, Niaz Ghobadi, students at Seneca College, are developing an iOS application which makes customer management and restaurant management more convenient for a restaurant.
+Alireza Zahedi, Hyungi Lee, Jackson Yeung, Niaz Ghobadi, students at Seneca College, are developing an iOS application which makes customer management more convenient for the restaurant.
