@@ -7,13 +7,13 @@ Customer with a valid account in the system.
 The Customer is logged into the system. No other customer has already picked the table and the information is stored in the restaurant database. 
 
 ### Main Flow
-Customer logins directly to the system.
-The system loads a list of table availability.
-The customer will choose the table and request to reserve it. 
-The system will book the table requested and ask for payment if it is a weekend or during peak business hours. 
-The customer will make the payment.
-The system verifies the account information, and sends the confirmation of the reserved table. 
-The customer gets the confirmation number. 
+1.Customer logins directly to the system.
+2.The system loads a list of table availability.
+3.The customer will choose the table and request to reserve it. 
+4.The system will book the table requested and ask for payment if it is a weekend or during peak business hours. 
+5.The customer will make the payment.
+6.The system verifies the account information, and sends the confirmation of the reserved table. 
+7.The customer gets the confirmation number. 
 
 ### Alternate Flow
 If no suitable table is available:
