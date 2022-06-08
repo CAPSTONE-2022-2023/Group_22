@@ -1,4 +1,4 @@
-Table Reservation (done by Niaz)
+ ### Table Reservation (done by Niaz)
 
 ### Actor (User)
 Customer with a valid account in the system.
