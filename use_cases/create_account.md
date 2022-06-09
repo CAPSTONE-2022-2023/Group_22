@@ -16,7 +16,8 @@ The Customer is logged into the account. No customer has created two accounts an
 7. The customer clicks the **activation link** and login to the account.
 
 ### Alternate Flows
- 1. A numbered list
+ 1. A numbered list:
+ 
              i. A nested numbered list
              
  2. Which is numbered
