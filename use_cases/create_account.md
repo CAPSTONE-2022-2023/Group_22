@@ -16,11 +16,10 @@ The Customer is logged into the account. No customer has created two accounts an
 7. The customer clicks the activation link and login to the account.
 
 ### Alternate Flows
-
-- Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
+* Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
 
 ### Postconditions
 After a customer has successfully created an account, the database saves the information. The customer receives an email with a confirmation. 
