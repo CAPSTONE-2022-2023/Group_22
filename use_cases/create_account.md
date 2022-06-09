@@ -9,23 +9,20 @@ The Customer is logged into the account. No customer has created two accounts an
 ### Main Flow
 1. The Customer clicks on the **create account** button to create a new account.
 2. The system brings up a registration form.
-3. The customer fills out all mandatory files in the registration form and enters a valid password. 
+3. The customer fills out all mandatory fields in the registration form and enters a valid password. 
 4. The customer reviews and accepts the Term of Use and Privacy statement.
 5. The customer clicks the **Submit** button.
 6. The system validates the entered data and sends an email containing a link to activate the account.
 7. The customer clicks the activation link and login to the account.
 
 ### Alternate Flows
-1. If a customer enters invalid information:
-   * A nested numbered list The system prompts the customer to re-enter valid information.
-
-2. If customer accounts exists:
-   * A nested numbered list The system displays a message indicating that this account is already exists. 
-
-3. If the password is not long or complex enough:
-   * A nested numbered list The system prompts the customer to re-enter the minimum length and complexity standard password. 
+* If a customer enters invalid information:
+    1. A nested numbered list The system prompts the customer to re-enter valid information.
+* If customer accounts exists:
+   1. A nested numbered list The system displays a message indicating that this account is already exists. 
+* If the password is not long or complex enough:
+   1. A nested numbered list The system prompts the customer to re-enter the minimum length and complexity standard password. 
    
-
 ### Postconditions
 After a customer has successfully created an account, the database saves the information. The customer receives an email with a confirmation. 
 
