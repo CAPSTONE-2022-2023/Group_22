@@ -16,10 +16,14 @@ The Customer is logged into the account. No customer has created two accounts an
 7. The customer clicks the **activation link** and login to the account.
 
 ### Alternate Flows
- 1. A numbered list:
-     i. A nested numbered list
-             
- 2. Which is numbered
+- If a customer enters invalid information:
+    i.The system prompts the customer to re-enter valid information.
+
+- If customer accounts exists:
+   i.The system displays a message indicating that this account is already exists. 
+
+- If the password is not long or complex enough:
+   i.The system prompts the customer to re-enter the minimum length and complexity standard password. 
 
 
 ### Postconditions
