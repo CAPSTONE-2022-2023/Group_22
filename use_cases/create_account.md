@@ -11,7 +11,7 @@ The Customer is logged into the account. No customer has created two accounts an
 2. The system brings up a registration form.
 3. The customer fills out all mandatory files in the registration form and enters a valid password. 
 4. The customer reviews and accepts the Term of Use and Privacy statement.
-5. The customer clicks the *Submit* button.
+5. The customer clicks the ###Submit### button.
 6. The system validates the entered data and sends an email containing a link to activate the account.
 7. The customer clicks the activation link and login to the account.
 
