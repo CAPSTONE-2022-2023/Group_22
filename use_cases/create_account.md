@@ -16,9 +16,9 @@ The Customer is logged into the account. No customer has created two accounts an
 7. The customer clicks the **activation link** and login to the account.
 
 ### Alternate Flows
-- If a customer enters invalid information:
-     1. A nested numbered list The system prompts the customer to re-enter valid information.
-
+1. If a customer enters invalid information:
+              1. A nested numbered list The system prompts the customer to re-enter valid information.
+              
 - If customer accounts exists:
      1. A nested numbered list The system displays a message indicating that this account is already exists. 
 
