@@ -17,6 +17,7 @@ The Customer is logged into the account. No customer has created two accounts an
 
 ### Alternate Flows
 - If customer accounts exists:
+
     i. The system displays a message indicating that this account is already exists. 
 
 
