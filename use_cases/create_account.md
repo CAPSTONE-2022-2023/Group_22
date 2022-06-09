@@ -16,8 +16,8 @@ The Customer is logged into the account. No customer has created two accounts an
 7. The customer clicks the **activation link** and login to the account.
 
 ### Alternate Flows
-. If customer accounts exists
-   - The system displays a message indicating that this account is already exists.
+ -  If customer accounts exists
+   i. The system displays a message indicating that this account is already exists.
 
 
 ### Postconditions
