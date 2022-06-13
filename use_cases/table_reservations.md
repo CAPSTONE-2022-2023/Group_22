@@ -70,7 +70,7 @@ Customer is logged into the restaurant's system.
 
     i.  After step 10, the system will go back to step 2.
 
-**Post Conditions**
+**Postconditions**
 
 After the customer confirms the table reservation, the restaurant's
 database is updated with the information about the new reservation's
