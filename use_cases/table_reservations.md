@@ -4,10 +4,10 @@ Actor (User)
 Customer with a valid account in the system of the restaurant. 
 
 Pre-conditions
-Customer is logged into the restaurant’s system.
+Customer is logged into the restaurantâ€™s system.
 
 Main Flows 
-1.	The customer clicks on the table reservation icon on the restaurant’s website. 
+1.	The customer clicks on the table reservation icon on the restaurantâ€™s website. 
 2.	The system displays a list of dates when the restaurant is open. 
 3.	The customer selects an available date.
 4.	The system asks for the number of people.
@@ -20,17 +20,18 @@ Main Flows
 11.	The customer confirms the reservation.
 12.	The system displays the reservation details including the chosen date and timeslot, the number of people, and the type of celebration. 
 13.	The system sends a confirmation email to the customer. 
+
 Alternate Flow  
-•	If the customer already has a reservation on the selected date:
+â€¢	If the customer already has a reservation on the selected date:
 i.	After step 3, the system will let the customer know that he has already reserved a table on that date, and the previous reservation will be cancelled if he continues.
-•	If no timeslots are available on the selected date:
+â€¢	If no timeslots are available on the selected date:
 i.	After step 3, the system will tell the customer to select a different date. 
-•	If no reservations are available for the required number of people on the selected date: 
+â€¢	If no reservations are available for the required number of people on the selected date: 
 i.	After step 5, the system will inform the customer that no reservations are available for the required number of people on the selected date. 
-•	If the customer replies that the reservation is not for a celebration:
+â€¢	If the customer replies that the reservation is not for a celebration:
 i.	In step 12, the system will not display the type of celebration.
-•	If the customer does not confirm his/her choice:
+â€¢	If the customer does not confirm his/her choice:
 i.	After step 10, the system will go back to step 2.
 
 Post Conditions 
-After the customer confirms the table reservation, the restaurant’s database is updated with the information about the new reservation’s details, including the customer number, the chosen date and timeslot, the number of people, and the type of celebration if applicable. Besides, the customer receives a confirmation email about the reservation.
+After the customer confirms the table reservation, the restaurantâ€™s database is updated with the information about the new reservationâ€™s details, including the customer number, the chosen date and timeslot, the number of people, and the type of celebration if applicable. Besides, the customer receives a confirmation email about the reservation.
