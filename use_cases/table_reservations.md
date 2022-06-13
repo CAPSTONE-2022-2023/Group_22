@@ -45,7 +45,7 @@ Customer is logged into the restaurant's system.
 
 -   If the customer already has a reservation on the selected date:
 
-i.  After step 3, the system will let the customer know that he has
+    i.  After step 3, the system will let the customer know that he has
     already reserved a table on that date, and the previous reservation
     will be cancelled if he continues.
 
