@@ -17,11 +17,11 @@ The Customer is logged into the account. No customer has created two accounts an
 
 ### Alternate Flows
 * If a customer enters invalid information:
-    1. A nested numbered list The system prompts the customer to re-enter valid information.
+    1. The system prompts the customer to re-enter valid information.
 * If customer accounts exists:
-   1. A nested numbered list The system displays a message indicating that this account is already exists. 
+   1. The system displays a message indicating that this account is already exists. 
 * If the password is not long or complex enough:
-   1. A nested numbered list The system prompts the customer to re-enter the minimum length and complexity standard password. 
+   1.  The system prompts the customer to re-enter the minimum length and complexity standard password. 
    
 ### Postconditions
 After a customer has successfully created an account, the database saves the information. The customer receives an email with a confirmation. 
