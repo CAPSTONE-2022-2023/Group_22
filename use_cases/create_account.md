@@ -14,6 +14,7 @@ The Customer is logged into the account. No customer has created two accounts an
 5. The customer clicks the **Submit** button.
 6. The system validates the entered data and sends an email containing a link to activate the account.
 7. The customer clicks the activation link and login to the account.
+8. The system sends an Welcome email. 
 
 ### Alternate Flows
 * If a customer enters invalid information:
