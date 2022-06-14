@@ -15,7 +15,7 @@ Alireza Zahedi, Hyungi Lee, Jackson Yeung, Niaz Ghobadi, students at Seneca Coll
 ## 3. Milestones
 1. List of frameworks, techonologies for front-end and back-end
 2. Back-end REST API desgined and implemented
-3. Front-end designed
+3. Front-end designed and implemented
 4. Account creation/deletion, authentication and authorization implemented and tested [Link](https://github.com/CAPSTONE-2022-2023/Group_22/blob/main/use_cases/create_account.md)
 5. Tool for staff to modify the menu desgined and tested [Link](https://github.com/CAPSTONE-2022-2023/Group_22/blob/main/use_cases/modify_menu.md)
 6. Tool for customers to check the menu and filter, implemented and tested
