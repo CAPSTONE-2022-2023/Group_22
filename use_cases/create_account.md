@@ -7,7 +7,7 @@ Customer create a valid account in the system.
 The Customer is logged into the account. No customer has created two accounts and the information is stored in the database. 
 
 ### Main Flow
-1. The Customer clicks on the **create account** button to create a new account.
+1. The Customer clicks on the **Create Account** button to create a new account.
 2. The system brings up a registration form for the customer to enter the username/email address, first and last name and their password.
 3. The customer fills out all mandatory fields in the registration form. 
 4. The customer reviews and accepts the Term of Use and Privacy statement.
