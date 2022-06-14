@@ -8,8 +8,8 @@ The Customer is logged into the account. No customer has created two accounts an
 
 ### Main Flow
 1. The Customer clicks on the **create account** button to create a new account.
-2. The system brings up a registration form.
-3. The customer fills out all mandatory fields in the registration form and enters a valid password. 
+2. The system brings up a registration form for the customer to enter the username/email address, first and last name and their password.
+3. The customer fills out all mandatory fields in the registration form. 
 4. The customer reviews and accepts the Term of Use and Privacy statement.
 5. The customer clicks the **Submit** button.
 6. The system validates the entered data and sends an email containing a link to activate the account.
@@ -17,8 +17,8 @@ The Customer is logged into the account. No customer has created two accounts an
 8. The system sends an Welcome email. 
 
 ### Alternate Flows
-* If a customer enters invalid information:
-    1. The system prompts the customer to re-enter valid information.
+* If a customer enters invalid  Fields(s):
+    1. After step 3, the system prompts the customer to re-enter valid deatils.
 * If customer accounts exists:
    1. The system displays a message indicating that this account is already exists. 
 * If the password is not long or complex enough:
