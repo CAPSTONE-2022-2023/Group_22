@@ -1,4 +1,4 @@
-### Create Account (done by Alireza Zahedi)
+### Modify Menu (done by Alireza Zahedi)
 
 ### Actor (Superuser)
 Superuser modifies the menu by creating/deleting a meal
