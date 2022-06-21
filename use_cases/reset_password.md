@@ -1,10 +1,10 @@
 ### Reset Password (done by Niaz)
 
 ### Actor (User)
-Customer has a valid account in the system.
+Customer with a valid account in the system.
 
 ### Pre-conditions
-The Customer has a registred email into the account. Information is stored in the database. 
+Customer has registered email address into the account.Account information is already stored in the database.
 
 ### Main Flow
 1. The Customer clicks on the **Forget Password** Button to reset the password.
