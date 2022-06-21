@@ -1,21 +1,22 @@
 ### Reset Password (done by Niaz)
 
 ### Actor (User)
-Customer creates a valid account in the system.
+Customer has a valid account in the system.
 
 ### Pre-conditions
-The Customer is logged into the account. Information is stored in the database. 
+The Customer has a registred email into the account. Information is stored in the database. 
 
 ### Main Flow
 1. The Customer clicks on the **Forget Password** Button to reset the password.
 2. The system asks the customer to enter an email address.  
 3. The customer fills in the email field.
-4. The system verifies the account exists with email and sends an email containing a one-time Password link.
-5. The customer clicks the link and the new password window appears.
-6. The customer fills in the password field.
-7. The system validates passwords.
-8. The customer clicks on the **Save** button.
-9. The system sends **Password Changed** notification email to the customer. 
+4. The customer clicks the **Submit** button.
+5. The system validates email and sends an email containing a one-time Password reset link.
+6. The customer clicks the link and the new password window appears.
+7. The customer fills in the new password field.
+8. The system validates passwords.
+9. The customer clicks on the **Save** button.
+10. The system sends Password Changed notification email to the customer. 
 
 
 ### Alternate Flows
