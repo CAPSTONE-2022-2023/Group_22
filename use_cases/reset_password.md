@@ -15,7 +15,7 @@ Customer is logged into the account. Account information is already stored in th
 6. The customer clicks the link and the new password window appears.
 7. The customer fills in the new password field.
 8. The system validates passwords.
-9. The customer clicks on the **Save** button.
+9. The customer clicks on the **Update** button.
 10. The system sends Password Changed notification email to the customer. 
 
 
