@@ -4,7 +4,7 @@
 Customer with a valid account in the system.
 
 ### Pre-conditions
-Customer has registered email address into the account.Account information is already stored in the database.
+Customer is logged into the account.Account information is already stored in the database.
 
 ### Main Flow
 1. The Customer clicks on the **Forget Password** Button to reset the password.
