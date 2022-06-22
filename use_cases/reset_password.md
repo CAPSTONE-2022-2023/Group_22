@@ -1,7 +1,7 @@
 ### Reset Password (done by Niaz)
 
 ### Actor (User)
-Customer with a valid account in the system.
+Customer with a valid registered email address in the system.
 
 ### Pre-conditions
 Customer is logged into the account. Account information is already stored in the database.
