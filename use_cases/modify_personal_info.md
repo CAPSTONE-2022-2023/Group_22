@@ -1,10 +1,10 @@
 ## Modify Personal Info (done by Hyungi)
 
 ### Actor (User)
-Customer with a valid account in the system.
+User with a valid account in the system.
 
 ### Pre-conditions
-Customer is logged into the system.
+User is logged into the system.
 
 ### Main Flow
 1. The user clicks on the **Settings** button.
