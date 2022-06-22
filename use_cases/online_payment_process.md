@@ -40,7 +40,7 @@ Customer is logged into the restaurant's system for online payment.
 
 -   If the customer does not confirm the payment amount:
 
-i.  After step 3, the system will go back to the main page of the
+    i.  After step 3, the system will go back to the main page of the
     website.
 
 -   If the customer chooses to skip the tip:
