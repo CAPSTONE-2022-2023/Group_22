@@ -17,10 +17,12 @@ User is logged into the system.
 8. The system displays a dashboard with the updated user's personal information.
 
 ### Alternate Flows
+- If a user enters wrong password at step 5:
+  1. After step 5, The system will let the user know that a wrong password was entered.
 - If a user is missing a required information in a form:
-  1. After step 7, The system will let the customer know that the required information should be entered in the form.
+  1. After step 7, The system will let the user know that the required information should be entered in the form.
 - If a user entered an invalid information in a form(e.g. entering letters in **phone number** form):
-  1. After step 7, The system will let the customer know that the only valid information should be entered in the form.
+  1. After step 7, The system will let the user know that the only valid information should be entered in the form.
 
 ### Postconditions
 After a user submits the new personal information, the system's database gets updated with the updated information.
