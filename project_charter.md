@@ -29,3 +29,23 @@ Alireza Zahedi, Hyungi Lee, Jackson Yeung, Niaz Ghobadi, students at Seneca Coll
 4. Checking availabilty feature
 5. Online order
 6. Online payment
+
+## 5. Risks, Assumptions, and Constraints
+
+## 5.1 Risks
+1. Required hardware does not work well. 
+2. Complexity of the system functionalities used in the project.
+3. Changes in requirements by the faculty.
+4. A team member might leave the project unexpectedly before its completion.
+5. Required IDE might start charging, or stop working. 
+
+
+## 5.2 Assumptions
+
+
+
+
+
+## 5.3 Constraints
+
+
