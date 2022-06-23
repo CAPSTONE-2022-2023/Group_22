@@ -37,15 +37,20 @@ Alireza Zahedi, Hyungi Lee, Jackson Yeung, Niaz Ghobadi, students at Seneca Coll
 2. Complexity of the system functionalities used in the project.
 3. Changes in requirements by the faculty.
 4. A team member might leave the project unexpectedly before its completion.
-5. Required IDE might start charging, or stop working. 
+5. Required IDE might start charging, or stop working.
 
 
 ## 5.2 Assumptions
-
-
-
+1. Manager and staff has access to iOS 15+ devices
+2. Manager is familiar with the features of the app and can maintain the application and its data
+3. APIs used for the app work without major changes as long as the application lives
+4. Database APIs are secure and no one has direct access to the sensitive data of the application (except for superuser(s))
 
 
 ## 5.3 Constraints
+1. The project has a deadline and has to be completed within a year
+2. All APIs used for this application have a certain limit for the number of requests that is sent
+3. SwiftUI doesn't have all the functionalities that UIKit and storyboard offer yet
+4. There are limited resources for SwiftUI for learning/referencing (compared to UIKit and storyboard)
 
 
