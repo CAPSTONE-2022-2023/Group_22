@@ -13,7 +13,7 @@ User is logged into the system.
 4. The system asks to enter user's password.
 5. The user enters password and clicks on a **Next** button.
 6. The system loads a form that is filled with the user's existing personal information.
-7. The user modifies the existing personal information in the form then click **Finished** button.
+7. The user modifies the existing personal information in the form then clicks **Finished** button.
 8. The system displays a dashboard with the updated user's personal information.
 
 ### Alternate Flows
