@@ -10,7 +10,7 @@ User is logged into the system.
 1. The user clicks on the **Settings** button.
 2. The system loads a dashboard that shows user's personal information and an **Edit** button on side.
 3. The user clicks on the **Edit** button.
-4. The system asks to enter customer's password.
+4. The system asks to enter user's password.
 5. The user enters password and clicks on a **Next** button.
 6. The system loads a form that is filled with the user's existing personal information.
 7. The user modifies the existing personal information in the form then click **Finished** button.
