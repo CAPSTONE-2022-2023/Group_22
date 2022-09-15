@@ -9,7 +9,6 @@ This project aims at creating an IOS application for a restaurant. There will be
 |:-:|:-:|:-:|:-:|
 | Alireza Zahedi | Backend-End Developer | AZ10CA | azahedi4@myseneca.ca |
 | Hyungi Lee | IOS Developer | dasidaz | hlee199@myseneca.ca |
-| Jackson Yeung | Backend-End Developer | jyeung44 |jyeung44@myseneca.ca |
 | Niaz Ghobadi | IOS Developer | niazgh | nghobadi@myseneca.ca |
 <hr/>
 
