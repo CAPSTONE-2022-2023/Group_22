@@ -2,7 +2,8 @@
 
 ### Description
 
-This project aims at creating an IOS application for a restaurant. There will be several features that are only available to the manager and staff of the restaurant, such as logging in and modifying the menu. But the main focus of this application is to make online ordering, reserving tables, checking availability, etc., more convenient for customers. This application will also include online payment, authentication and other essential features.
+This project aims at creating an IOS application for a restaurant. There will be features that are only available to the customers of the restaurant such as online payment, ordering food, checking availability, checking pervious orders throught order history page.
+Modifying menus and all realated operations will not be included in the project but can be done using http requests/postman.
 
 
 | Student | Project Role | Github Account | Seneca Email
