@@ -2,7 +2,7 @@
 
 ### Description
 
-This project aims at creating an IOS application for a restaurant. There will be features that are only available to the customers of the restaurant such as online payment, ordering food, checking availability, checking pervious orders throught order history page.
+This project aims at creating an IOS application for a restaurant. There will be features that are only available to the customers of the restaurant such as online payment, ordering food, checking availability, checking pervious orders or transactions.
 Modifying menus and all realated operations will not be included in the project but can be done using http requests/postman.
 
 
