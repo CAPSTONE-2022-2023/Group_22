@@ -5,6 +5,6 @@
 - Code meets Acceptance criteria
 - Code is peer-reviewed by all group members
 - Code is properly documented
-- Code performs as intended on iOS environment(Xcode Simulator)
+- Code performs as intended on iOS environment(Xcode Simulator) as well as [Appetize Website](https://appetize.io)
 - Code passes all test scenarios
 - A separate help documentation is updated
