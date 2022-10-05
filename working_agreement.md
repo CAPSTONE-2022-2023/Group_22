@@ -4,6 +4,7 @@
 - An online meeting will be held every week on Microsoft Teams
 - The team uses Discord for communication and Microsoft Teams for meetings only
 - There will be no fixed time for meetings, so the time for the meetings will be decided on discord every week
+- All project related questions should be answered within 48 hours
 - We will use only GitHub for version control
 
 ## Team Expectations
