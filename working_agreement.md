@@ -4,7 +4,6 @@
 - An online meeting will be held every week on Microsoft Teams
 - The team uses Discord for communication and Microsoft Teams for meetings only
 - There will be no fixed time for meetings, so the time for the meetings will be decided on discord every week
-- All project related questions should be answered within 48 hours
 - We will use only GitHub for version control
 
 ## Team Expectations
@@ -30,6 +29,7 @@
 - If you are done with your task, check the Discord channel to see if you could another team member to fix a problem
 - Respond to Discord messges tagged with "@everyone" within 4 hours
 - Discord channel is created to share important infromation/report about the project, do not share any unrelevant messages there
+- Answer project related questions within 48 hours
 
 ### Consequences for failing to follow rules and agreements
 - In case there is any violation of rules specified on this agreement, a meeting will be held to address the issue
