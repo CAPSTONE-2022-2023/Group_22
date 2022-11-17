@@ -11,12 +11,12 @@
 ## Colors
 
 
-![colors](https://user-images.githubusercontent.com/103765029/202369806-41d17526-1eb9-4cec-9510-7c8886d994c3.png)
+![colors](https://user-images.githubusercontent.com/103765029/202505178-1f2a4de7-422a-4bd7-af13-55697768d01e.png)
 
 
 
 ## Textfields
 
-![Textfields](https://user-images.githubusercontent.com/103765029/202350900-9621d0f6-f271-462f-8bea-feb42e5b1df3.png)
+![Textfields](https://user-images.githubusercontent.com/103765029/202505063-1198e2a2-ae48-46f7-a7dc-07e8182899f3.png)
 
 
