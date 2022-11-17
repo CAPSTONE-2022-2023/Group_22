@@ -2,13 +2,13 @@
 ## wireframe
 
 
-![wireframe](https://user-images.githubusercontent.com/103765029/202368376-7791dd8f-c9ed-4f1f-a4bc-fe739312aa9e.png)
-
+![wireframe](https://user-images.githubusercontent.com/103765029/202369573-dc589f21-482b-47bc-9540-072238294db7.png)
 
 
 ## Colors
 
-![colors](https://user-images.githubusercontent.com/103765029/202350913-6108a74f-68a9-4872-9091-16a2fd285b89.png)
+
+![colors](https://user-images.githubusercontent.com/103765029/202369806-41d17526-1eb9-4cec-9510-7c8886d994c3.png)
 
 
 
