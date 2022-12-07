@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB6359F9293FCB8D00CB41B0 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6359F8293FCB8D00CB41B0 /* BasketView.swift */; };
+		BB6359FB293FFAAA00CB41B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6359FA293FFAAA00CB41B0 /* Item.swift */; };
 		BBE15A9D291DEA2100E8D5E2 /* SaporApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE15A9C291DEA2100E8D5E2 /* SaporApp.swift */; };
 		BBE15A9F291DEA2100E8D5E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE15A9E291DEA2100E8D5E2 /* ContentView.swift */; };
 		BBE15AA1291DEA2300E8D5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE15AA0291DEA2300E8D5E2 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB6359F8293FCB8D00CB41B0 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		BB6359FA293FFAAA00CB41B0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Sapor/Item.swift; sourceTree = SOURCE_ROOT; };
 		BBE15A99291DEA2100E8D5E2 /* Sapor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sapor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE15A9C291DEA2100E8D5E2 /* SaporApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaporApp.swift; sourceTree = "<group>"; };
 		BBE15A9E291DEA2100E8D5E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 				BBF1DDAC292476C900DE9902 /* MainView.swift */,
 				BBF1DDA829246D7D00DE9902 /* SignUpView.swift */,
 				BBF1DDAE29247C3900DE9902 /* DashboardView.swift */,
+				BB6359F8293FCB8D00CB41B0 /* BasketView.swift */,
 				BBF1DDB029247CC000DE9902 /* MenuView.swift */,
 				BBF1DDAA292474E300DE9902 /* FireBaseManager.swift */,
 				BBF1DDA42924642B00DE9902 /* GoogleService-Info.plist */,
@@ -140,6 +145,7 @@
 		BBE15AC6291DED8300E8D5E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BB6359FA293FFAAA00CB41B0 /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -298,11 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6359F9293FCB8D00CB41B0 /* BasketView.swift in Sources */,
 				BBE15A9F291DEA2100E8D5E2 /* ContentView.swift in Sources */,
 				BBF1DDAF29247C3900DE9902 /* DashboardView.swift in Sources */,
 				BBF1DDA929246D7D00DE9902 /* SignUpView.swift in Sources */,
 				BBF1DDAB292474E300DE9902 /* FireBaseManager.swift in Sources */,
 				BBF1DDB129247CC000DE9902 /* MenuView.swift in Sources */,
+				BB6359FB293FFAAA00CB41B0 /* Item.swift in Sources */,
 				BBF1DDAD292476C900DE9902 /* MainView.swift in Sources */,
 				BBF1DDA129245D6100DE9902 /* WelcomeView.swift in Sources */,
 				BBF1DDA72924681300DE9902 /* SignInView.swift in Sources */,

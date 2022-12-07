@@ -12,19 +12,24 @@ struct MainView: View {
     
     var body: some View {
         TabView(selection: self.$selectedTab) {
-
+            
             MenuView()
                 .tabItem {
                     Label("Menu", systemImage: "menucard.fill")
                 }
                 .tag("menu")
             
+            BasketView()
+                .tabItem {
+                    Label("Basket", systemImage: "basket")
+                }
+                .tag("basket")
+            
             DashboardView()
                 .tabItem {
                     Label("Dashboard", systemImage: "person.fill")
                 }
                 .tag("dashboard")
-        
         }
         
     }

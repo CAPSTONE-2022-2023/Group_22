@@ -32,7 +32,6 @@ struct DashboardView: View {
                     HStack(spacing: 15){
                         Image(systemName: "list.bullet.rectangle.portrait.fill")
                         Text("Order History")
-
                     }
                     
                     HStack(spacing: 15){

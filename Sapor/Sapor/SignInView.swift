@@ -11,8 +11,8 @@ struct SignInView: View {
     @Environment(\.presentationMode) var presentationMode
     
     @State var isSignUpDisplayed: Bool = false
-    @State private var email: String =  "";
-    @State private var password: String = "";
+    @State private var email: String =  "1@2.com";
+    @State private var password: String = "123123";
     
     @State private var showDashboard: Bool = false;
     @State private var showAlert: Bool = false;
