@@ -66,6 +66,7 @@ struct BasketView: View {
                                         }
                                 }
                             }
+                            
                             Spacer()
                             VStack(alignment: .trailing){
                                 Button {
