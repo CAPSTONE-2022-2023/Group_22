@@ -126,6 +126,22 @@ struct SignUpView: View {
                     self.alertMessage = err.localizedDescription
                     self.showAlert.toggle()
                 } else {
+                    if let user_id = FirebaseManager.shared.auth.currentUser?.uid {
+                        FirebaseManager
+                            .shared
+                            .firestoreDB
+                            .collection("CustomersInfo")
+                            .document(user_id)
+                            .setData([
+                                "name": "",
+                                "surname": "",
+                                "phoneNumber": "",
+                                "email": self.email]
+                            )
+                        print("crated a document")
+                    }
+                    
+                    
                     // TODO: - redirect to dashboard
                     self.showDashboard.toggle()
                 }
