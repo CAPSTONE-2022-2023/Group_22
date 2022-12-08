@@ -18,7 +18,7 @@ struct MainView: View {
                     Label("Menu", systemImage: "menucard.fill")
                 }
                 .tag("menu")
-            
+             
             BasketView()
                 .tabItem {
                     Label("Basket", systemImage: "basket")
@@ -31,7 +31,6 @@ struct MainView: View {
                 }
                 .tag("dashboard")
         }
-        
     }
 }
 

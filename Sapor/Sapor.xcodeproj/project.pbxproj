@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BB6359F9293FCB8D00CB41B0 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6359F8293FCB8D00CB41B0 /* BasketView.swift */; };
 		BB6359FB293FFAAA00CB41B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6359FA293FFAAA00CB41B0 /* Item.swift */; };
+		BB7F84C229414AEB002AEE8B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F84C129414AEB002AEE8B /* ProfileView.swift */; };
+		BB7F84C429414BC2002AEE8B /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F84C329414BC2002AEE8B /* MenuViewModel.swift */; };
 		BBE15A9D291DEA2100E8D5E2 /* SaporApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE15A9C291DEA2100E8D5E2 /* SaporApp.swift */; };
 		BBE15A9F291DEA2100E8D5E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE15A9E291DEA2100E8D5E2 /* ContentView.swift */; };
 		BBE15AA1291DEA2300E8D5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE15AA0291DEA2300E8D5E2 /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 /* Begin PBXFileReference section */
 		BB6359F8293FCB8D00CB41B0 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
 		BB6359FA293FFAAA00CB41B0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Sapor/Item.swift; sourceTree = SOURCE_ROOT; };
+		BB7F84C129414AEB002AEE8B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BB7F84C329414BC2002AEE8B /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		BBE15A99291DEA2100E8D5E2 /* Sapor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sapor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE15A9C291DEA2100E8D5E2 /* SaporApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaporApp.swift; sourceTree = "<group>"; };
 		BBE15A9E291DEA2100E8D5E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,13 +120,6 @@
 			children = (
 				BBE15A9C291DEA2100E8D5E2 /* SaporApp.swift */,
 				BBE15A9E291DEA2100E8D5E2 /* ContentView.swift */,
-				BBF1DDA029245D6100DE9902 /* WelcomeView.swift */,
-				BBF1DDA62924681300DE9902 /* SignInView.swift */,
-				BBF1DDAC292476C900DE9902 /* MainView.swift */,
-				BBF1DDA829246D7D00DE9902 /* SignUpView.swift */,
-				BBF1DDAE29247C3900DE9902 /* DashboardView.swift */,
-				BB6359F8293FCB8D00CB41B0 /* BasketView.swift */,
-				BBF1DDB029247CC000DE9902 /* MenuView.swift */,
 				BBF1DDAA292474E300DE9902 /* FireBaseManager.swift */,
 				BBF1DDA42924642B00DE9902 /* GoogleService-Info.plist */,
 				BBE15AC6291DED8300E8D5E2 /* Model */,
@@ -153,6 +150,14 @@
 		BBE15AC7291DED8800E8D5E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BBF1DDA029245D6100DE9902 /* WelcomeView.swift */,
+				BBF1DDA62924681300DE9902 /* SignInView.swift */,
+				BBF1DDAC292476C900DE9902 /* MainView.swift */,
+				BBF1DDA829246D7D00DE9902 /* SignUpView.swift */,
+				BBF1DDAE29247C3900DE9902 /* DashboardView.swift */,
+				BB7F84C129414AEB002AEE8B /* ProfileView.swift */,
+				BB6359F8293FCB8D00CB41B0 /* BasketView.swift */,
+				BBF1DDB029247CC000DE9902 /* MenuView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 		BBE15AC8291DED8E00E8D5E2 /* View-Model */ = {
 			isa = PBXGroup;
 			children = (
+				BB7F84C329414BC2002AEE8B /* MenuViewModel.swift */,
 			);
 			path = "View-Model";
 			sourceTree = "<group>";
@@ -308,11 +314,13 @@
 				BBE15A9F291DEA2100E8D5E2 /* ContentView.swift in Sources */,
 				BBF1DDAF29247C3900DE9902 /* DashboardView.swift in Sources */,
 				BBF1DDA929246D7D00DE9902 /* SignUpView.swift in Sources */,
+				BB7F84C229414AEB002AEE8B /* ProfileView.swift in Sources */,
 				BBF1DDAB292474E300DE9902 /* FireBaseManager.swift in Sources */,
 				BBF1DDB129247CC000DE9902 /* MenuView.swift in Sources */,
 				BB6359FB293FFAAA00CB41B0 /* Item.swift in Sources */,
 				BBF1DDAD292476C900DE9902 /* MainView.swift in Sources */,
 				BBF1DDA129245D6100DE9902 /* WelcomeView.swift in Sources */,
+				BB7F84C429414BC2002AEE8B /* MenuViewModel.swift in Sources */,
 				BBF1DDA72924681300DE9902 /* SignInView.swift in Sources */,
 				BBE15A9D291DEA2100E8D5E2 /* SaporApp.swift in Sources */,
 			);
