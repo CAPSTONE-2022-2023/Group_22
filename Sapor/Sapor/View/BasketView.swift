@@ -10,37 +10,36 @@ import SwiftUI
 struct BasketItem: Hashable {
     let name: String;
     let category: String;
-    let price: Double;
+    let price: String;
     let qty: Int;
     let imageURL: String;
 }
 
 
 struct BasketView: View {
-    @State private var basketItems: [BasketItem] = [
-        BasketItem(name: "Rigatoni", category: "Pasta", price: 24.9, qty: 1, imageURL: "https://firebasestorage.googleapis.com/v0/b/sapor-e45c1.appspot.com/o/rigatoni.jpg?alt=media&token=99e2f1b5-89ae-49ca-83a5-8e849ecf6c81"),
-        BasketItem(name: "Penne", category: "Pasta", price: 24.9, qty: 1, imageURL: "https://firebasestorage.googleapis.com/v0/b/sapor-e45c1.appspot.com/o/rigatoni.jpg?alt=media&token=99e2f1b5-89ae-49ca-83a5-8e849ecf6c81"),
-        BasketItem(name: "Hot dog", category: "Pasta", price: 24.9, qty: 1, imageURL: "https://firebasestorage.googleapis.com/v0/b/sapor-e45c1.appspot.com/o/rigatoni.jpg?alt=media&token=99e2f1b5-89ae-49ca-83a5-8e849ecf6c81"),
-        BasketItem(name: "special salad", category: "Pasta", price: 24.9, qty: 1, imageURL: "https://firebasestorage.googleapis.com/v0/b/sapor-e45c1.appspot.com/o/rigatoni.jpg?alt=media&token=99e2f1b5-89ae-49ca-83a5-8e849ecf6c81"),
-        BasketItem(name: "Coca cola", category: "Pasta", price: 24.9, qty: 1, imageURL: "https://firebasestorage.googleapis.com/v0/b/sapor-e45c1.appspot.com/o/rigatoni.jpg?alt=media&token=99e2f1b5-89ae-49ca-83a5-8e849ecf6c81")
-    ]
+//    @State private var basketItems: [BasketItem] = [
+//        BasketItem(name: "Rigatoni", category: "Pasta", price: 24.9, qty: 1, imageURL: "https://firebasestorage.googleapis.com/v0/b/sapor-e45c1.appspot.com/o/rigatoni.jpg?alt=media&token=99e2f1b5-89ae-49ca-83a5-8e849ecf6c81"),
+//        BasketItem(name: "Penne", category: "Pasta", price: 24.9, qty: 1, imageURL: "https://firebasestorage.googleapis.com/v0/b/sapor-e45c1.appspot.com/o/rigatoni.jpg?alt=media&token=99e2f1b5-89ae-49ca-83a5-8e849ecf6c81")
+//    ]
+//
+    @ObservedObject var vm = BasketViewModel()
     
     var body: some View {
         NavigationView {
-            if self.basketItems.isEmpty {
+            if vm.items.isEmpty {
                 Text("Basket is empty!")
                     .font(.largeTitle)
             } else {
                 ScrollView(.vertical){
                     VStack{
-                        ForEach(basketItems, id: \.self) { item in
+                        ForEach(vm.items, id: \.self) { item in
                             HStack{
                                 // MARK: Image
                                 AsyncImage(url: URL(string: item.imageURL)) { image in
                                     image.resizable()
                                         .scaledToFill()
                                 } placeholder: {
-                                    ProgressView()
+                                   
                                 }
                                 .frame(width: 100, height: 100)
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
@@ -59,6 +58,7 @@ struct BasketView: View {
                                         Image(systemName: "minus")
                                             .onTapGesture {
                                                 // decrement
+                                                vm.increment(qty: -1, item: item)
                                             }
                                         
                                         
@@ -67,6 +67,7 @@ struct BasketView: View {
                                         Image(systemName: "plus")
                                             .onTapGesture {
                                                 // increment
+                                                vm.increment(qty: 1, item: item)
                                             }
                                     }
                                 }
@@ -74,10 +75,7 @@ struct BasketView: View {
                                 Spacer()
                                 VStack(alignment: .trailing){
                                     Button {
-                                        print(item.hashValue)
-                                        self.basketItems.removeAll { _item in
-                                            _item.hashValue == item.hashValue
-                                        }
+                                        vm.deleteItem(item: item)
                                     } label: {
                                         Image(systemName: "multiply.circle.fill")
                                             .foregroundColor(.primary)
@@ -85,7 +83,7 @@ struct BasketView: View {
                                     
                                     
                                     Spacer()
-                                    Text(String(format: "$%.2f", item.price))
+                                    Text("$" + String(format: "%.2f", Double(item.price)! * Double(item.qty)))
                                         .bold()
                                         .font(.title3)
                                         .foregroundColor(.orange)

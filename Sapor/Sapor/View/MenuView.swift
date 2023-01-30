@@ -8,10 +8,6 @@
 import SwiftUI
 
 
-
-
-
-
 struct MenuView: View {
     @State private var searchTerm: String = "";
     private var categories: [String] = ["Sandwich", "Pasta", "Soup", "Salad", "Drink"]
@@ -65,10 +61,19 @@ struct MenuView: View {
                             HStack(){
                                 // MARK: Item Description
                                 VStack(alignment: .leading, spacing: 10){
-                                    Text(item.name)
-                                        .font(.body)
-                                        .bold()
-                                        
+                                    HStack{
+                                        Text(item.name)
+                                            .font(.body)
+                                            .bold()
+                                        Spacer()
+                                        Button {
+                                            // TODO: add to basket
+                                            vm.addToBasket(item:item)
+                                        } label: {
+                                            Image(systemName: "cart.fill.badge.plus").foregroundColor(.orange)
+                                        }
+
+                                    }
                                     Text("$\(item.price)")
                                         .font(.subheadline)
                                     
