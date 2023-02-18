@@ -13,6 +13,7 @@ struct MenuView: View {
     private var categories: [String] = ["Sandwich", "Pasta", "Soup", "Salad", "Drink"]
     @State private var selectedCategory: String = "Sandwich";
     @ObservedObject var vm = MenuViewModel()
+    @ObservedObject var wishList: WishViewModel = .shared
     
     var body: some View {
         NavigationView {
@@ -66,13 +67,27 @@ struct MenuView: View {
                                             .font(.body)
                                             .bold()
                                         Spacer()
+                                        let has = self.wishList.wishlist.contains { str in
+                                            str == item.name;
+                                        };
+                                        Button {
+                                            // TODO: add to basket
+                                            if !has {
+                                                wishList.addItem(name: item.name)
+                                            } else {
+                                                wishList.removeItem(name: item.name)
+                                            }
+                                        } label: {
+                                            Image(systemName: has ? "heart.fill" : "heart").foregroundColor(.orange)
+                                        }
+                                        
                                         Button {
                                             // TODO: add to basket
                                             vm.addToBasket(item:item)
                                         } label: {
                                             Image(systemName: "cart.fill.badge.plus").foregroundColor(.orange)
                                         }
-
+                                        
                                     }
                                     Text("$\(item.price)")
                                         .font(.subheadline)
