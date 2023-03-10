@@ -37,12 +37,13 @@ struct DashboardView: View {
                         Text("Order History")
                     }
                     
-                    HStack(spacing: 15){
-                        Image(systemName: "heart.fill")
-                        Text("Favourites")
-                        
+                    NavigationLink(destination: WishlistView()) {
+                        HStack(spacing: 15){
+                            Image(systemName: "heart.fill")
+                            Text("Favourites")
+                            
+                        }
                     }
-                    
                     HStack(spacing: 15){
                         Image(systemName: "questionmark.circle.fill")
                         Text("Help")

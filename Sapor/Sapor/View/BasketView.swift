@@ -17,11 +17,6 @@ struct BasketItem: Hashable {
 
 
 struct BasketView: View {
-//    @State private var basketItems: [BasketItem] = [
-//        BasketItem(name: "Rigatoni", category: "Pasta", price: 24.9, qty: 1, imageURL: "https://firebasestorage.googleapis.com/v0/b/sapor-e45c1.appspot.com/o/rigatoni.jpg?alt=media&token=99e2f1b5-89ae-49ca-83a5-8e849ecf6c81"),
-//        BasketItem(name: "Penne", category: "Pasta", price: 24.9, qty: 1, imageURL: "https://firebasestorage.googleapis.com/v0/b/sapor-e45c1.appspot.com/o/rigatoni.jpg?alt=media&token=99e2f1b5-89ae-49ca-83a5-8e849ecf6c81")
-//    ]
-//
     @ObservedObject var vm = BasketViewModel()
     
     var body: some View {

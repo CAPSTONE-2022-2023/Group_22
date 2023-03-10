@@ -11,6 +11,9 @@
 		BB6359FB293FFAAA00CB41B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6359FA293FFAAA00CB41B0 /* Item.swift */; };
 		BB7F84C229414AEB002AEE8B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F84C129414AEB002AEE8B /* ProfileView.swift */; };
 		BB7F84C429414BC2002AEE8B /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F84C329414BC2002AEE8B /* MenuViewModel.swift */; };
+		BBB9723629A14167005DC095 /* BasketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9723529A14167005DC095 /* BasketViewModel.swift */; };
+		BBB9723829A1433C005DC095 /* WishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9723729A1433C005DC095 /* WishViewModel.swift */; };
+		BBB9723C29A160CB005DC095 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9723B29A160CB005DC095 /* WishlistView.swift */; };
 		BBE15A9D291DEA2100E8D5E2 /* SaporApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE15A9C291DEA2100E8D5E2 /* SaporApp.swift */; };
 		BBE15A9F291DEA2100E8D5E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE15A9E291DEA2100E8D5E2 /* ContentView.swift */; };
 		BBE15AA1291DEA2300E8D5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE15AA0291DEA2300E8D5E2 /* Assets.xcassets */; };
@@ -51,6 +54,9 @@
 		BB6359FA293FFAAA00CB41B0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Sapor/Item.swift; sourceTree = SOURCE_ROOT; };
 		BB7F84C129414AEB002AEE8B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		BB7F84C329414BC2002AEE8B /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		BBB9723529A14167005DC095 /* BasketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewModel.swift; sourceTree = "<group>"; };
+		BBB9723729A1433C005DC095 /* WishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishViewModel.swift; sourceTree = "<group>"; };
+		BBB9723B29A160CB005DC095 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
 		BBE15A99291DEA2100E8D5E2 /* Sapor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sapor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE15A9C291DEA2100E8D5E2 /* SaporApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaporApp.swift; sourceTree = "<group>"; };
 		BBE15A9E291DEA2100E8D5E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +164,7 @@
 				BB7F84C129414AEB002AEE8B /* ProfileView.swift */,
 				BB6359F8293FCB8D00CB41B0 /* BasketView.swift */,
 				BBF1DDB029247CC000DE9902 /* MenuView.swift */,
+				BBB9723B29A160CB005DC095 /* WishlistView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				BB7F84C329414BC2002AEE8B /* MenuViewModel.swift */,
+				BBB9723529A14167005DC095 /* BasketViewModel.swift */,
+				BBB9723729A1433C005DC095 /* WishViewModel.swift */,
 			);
 			path = "View-Model";
 			sourceTree = "<group>";
@@ -310,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB9723629A14167005DC095 /* BasketViewModel.swift in Sources */,
 				BB6359F9293FCB8D00CB41B0 /* BasketView.swift in Sources */,
 				BBE15A9F291DEA2100E8D5E2 /* ContentView.swift in Sources */,
 				BBF1DDAF29247C3900DE9902 /* DashboardView.swift in Sources */,
@@ -318,11 +328,13 @@
 				BBF1DDAB292474E300DE9902 /* FireBaseManager.swift in Sources */,
 				BBF1DDB129247CC000DE9902 /* MenuView.swift in Sources */,
 				BB6359FB293FFAAA00CB41B0 /* Item.swift in Sources */,
+				BBB9723829A1433C005DC095 /* WishViewModel.swift in Sources */,
 				BBF1DDAD292476C900DE9902 /* MainView.swift in Sources */,
 				BBF1DDA129245D6100DE9902 /* WelcomeView.swift in Sources */,
 				BB7F84C429414BC2002AEE8B /* MenuViewModel.swift in Sources */,
 				BBF1DDA72924681300DE9902 /* SignInView.swift in Sources */,
 				BBE15A9D291DEA2100E8D5E2 /* SaporApp.swift in Sources */,
+				BBB9723C29A160CB005DC095 /* WishlistView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
