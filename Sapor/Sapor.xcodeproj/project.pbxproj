@@ -30,6 +30,8 @@
 		BBF1DDAD292476C900DE9902 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF1DDAC292476C900DE9902 /* MainView.swift */; };
 		BBF1DDAF29247C3900DE9902 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF1DDAE29247C3900DE9902 /* DashboardView.swift */; };
 		BBF1DDB129247CC000DE9902 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF1DDB029247CC000DE9902 /* MenuView.swift */; };
+		E79BA4D429C92BE400D4E479 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BA4D329C92BE400D4E479 /* PaymentHandler.swift */; };
+		E79BA4D729C9759300D4E479 /* StoreKitTestCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = E79BA4D629C9759300D4E479 /* StoreKitTestCertificate.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,11 @@
 		BBF1DDAC292476C900DE9902 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BBF1DDAE29247C3900DE9902 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		BBF1DDB029247CC000DE9902 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		E79BA49629C711E100D4E479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E79BA4D229C928D400D4E479 /* Sapor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sapor.entitlements; sourceTree = "<group>"; };
+		E79BA4D329C92BE400D4E479 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		E79BA4D529C9628200D4E479 /* Group22.storekit */ = {isa = PBXFileReference; lastKnownFileType = file; name = Group22.storekit; path = Sapor/Group22.storekit; sourceTree = SOURCE_ROOT; };
+		E79BA4D629C9759300D4E479 /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreKitTestCertificate.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +131,14 @@
 		BBE15A9B291DEA2100E8D5E2 /* Sapor */ = {
 			isa = PBXGroup;
 			children = (
+				E79BA4D229C928D400D4E479 /* Sapor.entitlements */,
+				E79BA4D529C9628200D4E479 /* Group22.storekit */,
+				E79BA4D629C9759300D4E479 /* StoreKitTestCertificate.cer */,
+				E79BA49629C711E100D4E479 /* Info.plist */,
 				BBE15A9C291DEA2100E8D5E2 /* SaporApp.swift */,
 				BBE15A9E291DEA2100E8D5E2 /* ContentView.swift */,
 				BBF1DDAA292474E300DE9902 /* FireBaseManager.swift */,
+				E79BA4D329C92BE400D4E479 /* PaymentHandler.swift */,
 				BBF1DDA42924642B00DE9902 /* GoogleService-Info.plist */,
 				BBE15AC6291DED8300E8D5E2 /* Model */,
 				BBE15AC7291DED8800E8D5E2 /* View */,
@@ -295,6 +307,7 @@
 				BBE15AA4291DEA2300E8D5E2 /* Preview Assets.xcassets in Resources */,
 				BBF1DDA52924642B00DE9902 /* GoogleService-Info.plist in Resources */,
 				BBE15AA1291DEA2300E8D5E2 /* Assets.xcassets in Resources */,
+				E79BA4D729C9759300D4E479 /* StoreKitTestCertificate.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +339,7 @@
 				BBF1DDA929246D7D00DE9902 /* SignUpView.swift in Sources */,
 				BB7F84C229414AEB002AEE8B /* ProfileView.swift in Sources */,
 				BBF1DDAB292474E300DE9902 /* FireBaseManager.swift in Sources */,
+				E79BA4D429C92BE400D4E479 /* PaymentHandler.swift in Sources */,
 				BBF1DDB129247CC000DE9902 /* MenuView.swift in Sources */,
 				BB6359FB293FFAAA00CB41B0 /* Item.swift in Sources */,
 				BBB9723829A1433C005DC095 /* WishViewModel.swift in Sources */,
@@ -487,12 +501,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sapor/Sapor.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sapor/Preview Content\"";
-				DEVELOPMENT_TEAM = RFR6489B8Z;
+				DEVELOPMENT_TEAM = DMLHCJ9JMT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sapor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -505,6 +522,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = group22.Sapor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,12 +534,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sapor/Sapor.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sapor/Preview Content\"";
-				DEVELOPMENT_TEAM = RFR6489B8Z;
+				DEVELOPMENT_TEAM = DMLHCJ9JMT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sapor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -534,6 +555,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = group22.Sapor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
