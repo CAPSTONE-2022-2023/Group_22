@@ -1,0 +1,38 @@
+{
+  "identifier" : "C013C653",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "7DB617F9",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_CA"
+        }
+      ],
+      "productID" : "com.temporary.id",
+      "referenceName" : "Test",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

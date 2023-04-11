@@ -18,6 +18,8 @@ class BasketViewModel: ObservableObject {
 	@Published var paymentSuccess = false
 	// Call the startPayment function from the PaymentHandler. In the completion handler, set the paymentSuccess variable
 	
+    static let shared = BasketViewModel()
+    
 	init() {
 		fetchItems()
 	}
@@ -87,16 +89,29 @@ class BasketViewModel: ObservableObject {
 			print("Updated quantity")
 		}
 	}
+    
+    func clearBasket(){
+        for item in self.items{
+            if let uid = FirebaseManager.shared.auth.currentUser?.uid {
+                let shopping_cart = FirebaseManager.shared.firestoreDB
+                    .collection("Shopping_Cart")
+                    .document(uid)
+                    .collection("basket")
+                shopping_cart.document(item.name).delete()
+            }
+        }
+    }
 	
 	func pay() {
 		paymentHandler.startPayment(products: products, total: total) { success in
 			self.paymentSuccess = success
-			//self.products = []
-			//self.total = 0.0
+            print("Clearing basket")
+            print("Paid")
+            
+            self.clearBasket()
+			self.products = []
+			self.total = 0.0
 		}
 	}
 	
 }
-
-
-

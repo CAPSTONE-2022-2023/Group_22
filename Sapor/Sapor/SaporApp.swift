@@ -7,8 +7,15 @@
 
 import SwiftUI
 
+let BackendUrl = "http://127.0.0.1:4242/"
+
 @main
 struct SaporApp: App {
+	
+	init() {
+	}
+	
+	
     var body: some Scene {
         WindowGroup {
             ContentView()

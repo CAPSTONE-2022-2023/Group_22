@@ -32,9 +32,11 @@ struct DashboardView: View {
                         Text("Wallet")
                     }
                     
-                    HStack(spacing: 15){
-                        Image(systemName: "list.bullet.rectangle.portrait.fill")
-                        Text("Order History")
+                    NavigationLink(destination: OrderHistoryView()){
+                        HStack(spacing: 15){
+                            Image(systemName: "list.bullet.rectangle.portrait.fill")
+                            Text("Order History")
+                        }
                     }
                     
                     NavigationLink(destination: WishlistView()) {

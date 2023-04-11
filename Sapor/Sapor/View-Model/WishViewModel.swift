@@ -33,7 +33,14 @@ class WishViewModel: ObservableObject {
                 print("Document data was empty.")
                 return
             }
-            
+            print("THE DATA HERE:")
+
+            var counter = 0
+            for each in document.data()!{
+                print(counter)
+                print(each)
+                counter += 1
+            }
             DispatchQueue.main.async {
                 print("loading the list thorugh snapshot listener")
                 self?.wishlist = wishlist

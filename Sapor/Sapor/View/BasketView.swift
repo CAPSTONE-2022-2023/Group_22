@@ -18,7 +18,8 @@ struct BasketItem: Hashable {
 
 
 struct BasketView: View {
-	@ObservedObject var vm = BasketViewModel()
+    @ObservedObject var vm = BasketViewModel.shared
+    @ObservedObject var orderHistory = OrderHistoryViewModel.shared
 	
 	var body: some View {
 		NavigationView {
@@ -102,6 +103,9 @@ struct BasketView: View {
 					}
 					.overlay(alignment: .bottom, content: {
 						Button {
+                            orderHistory.addItem(items: vm.items.map({ item in
+                                item.name
+                            }))
 							vm.pay()
 							print("Button Clicked")
 							

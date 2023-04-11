@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1A011029E0B6D50001229A /* OrderHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1A010F29E0B6D50001229A /* OrderHistoryViewModel.swift */; };
+		BB1A011229E0D4170001229A /* OrderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1A011129E0D4170001229A /* OrderHistoryView.swift */; };
 		BB6359F9293FCB8D00CB41B0 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6359F8293FCB8D00CB41B0 /* BasketView.swift */; };
 		BB6359FB293FFAAA00CB41B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6359FA293FFAAA00CB41B0 /* Item.swift */; };
 		BB7F84C229414AEB002AEE8B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F84C129414AEB002AEE8B /* ProfileView.swift */; };
@@ -32,6 +34,7 @@
 		BBF1DDB129247CC000DE9902 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF1DDB029247CC000DE9902 /* MenuView.swift */; };
 		E79BA4D429C92BE400D4E479 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BA4D329C92BE400D4E479 /* PaymentHandler.swift */; };
 		E79BA4D729C9759300D4E479 /* StoreKitTestCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = E79BA4D629C9759300D4E479 /* StoreKitTestCertificate.cer */; };
+		E79BA4DA29C9FB5200D4E479 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79BA4D929C9FB5200D4E479 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB1A010F29E0B6D50001229A /* OrderHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewModel.swift; sourceTree = "<group>"; };
+		BB1A011129E0D4170001229A /* OrderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryView.swift; sourceTree = "<group>"; };
 		BB6359F8293FCB8D00CB41B0 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
 		BB6359FA293FFAAA00CB41B0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Sapor/Item.swift; sourceTree = SOURCE_ROOT; };
 		BB7F84C129414AEB002AEE8B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -77,8 +82,9 @@
 		E79BA49629C711E100D4E479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E79BA4D229C928D400D4E479 /* Sapor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sapor.entitlements; sourceTree = "<group>"; };
 		E79BA4D329C92BE400D4E479 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
-		E79BA4D529C9628200D4E479 /* Group22.storekit */ = {isa = PBXFileReference; lastKnownFileType = file; name = Group22.storekit; path = Sapor/Group22.storekit; sourceTree = SOURCE_ROOT; };
+		E79BA4D529C9628200D4E479 /* Group22.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; name = Group22.storekit; path = Sapor/Group22.storekit; sourceTree = SOURCE_ROOT; };
 		E79BA4D629C9759300D4E479 /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreKitTestCertificate.cer; sourceTree = "<group>"; };
+		E79BA4D929C9FB5200D4E479 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 			files = (
 				BBF1DD9B29245D1700DE9902 /* FirebaseDatabase in Frameworks */,
 				BBF1DD9F29245D1700DE9902 /* FirebaseStorage in Frameworks */,
+				E79BA4DA29C9FB5200D4E479 /* StoreKit.framework in Frameworks */,
 				BBF1DD9929245D1700DE9902 /* FirebaseAuth in Frameworks */,
 				BBF1DD9D29245D1700DE9902 /* FirebaseFirestore in Frameworks */,
 			);
@@ -115,6 +122,7 @@
 			children = (
 				BBE15A9B291DEA2100E8D5E2 /* Sapor */,
 				BBE15A9A291DEA2100E8D5E2 /* Products */,
+				E79BA4D829C9FB5200D4E479 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,6 +185,7 @@
 				BB6359F8293FCB8D00CB41B0 /* BasketView.swift */,
 				BBF1DDB029247CC000DE9902 /* MenuView.swift */,
 				BBB9723B29A160CB005DC095 /* WishlistView.swift */,
+				BB1A011129E0D4170001229A /* OrderHistoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,8 +196,17 @@
 				BB7F84C329414BC2002AEE8B /* MenuViewModel.swift */,
 				BBB9723529A14167005DC095 /* BasketViewModel.swift */,
 				BBB9723729A1433C005DC095 /* WishViewModel.swift */,
+				BB1A010F29E0B6D50001229A /* OrderHistoryViewModel.swift */,
 			);
 			path = "View-Model";
+			sourceTree = "<group>";
+		};
+		E79BA4D829C9FB5200D4E479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E79BA4D929C9FB5200D4E479 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +352,7 @@
 			files = (
 				BBB9723629A14167005DC095 /* BasketViewModel.swift in Sources */,
 				BB6359F9293FCB8D00CB41B0 /* BasketView.swift in Sources */,
+				BB1A011029E0B6D50001229A /* OrderHistoryViewModel.swift in Sources */,
 				BBE15A9F291DEA2100E8D5E2 /* ContentView.swift in Sources */,
 				BBF1DDAF29247C3900DE9902 /* DashboardView.swift in Sources */,
 				BBF1DDA929246D7D00DE9902 /* SignUpView.swift in Sources */,
@@ -343,6 +362,7 @@
 				BBF1DDB129247CC000DE9902 /* MenuView.swift in Sources */,
 				BB6359FB293FFAAA00CB41B0 /* Item.swift in Sources */,
 				BBB9723829A1433C005DC095 /* WishViewModel.swift in Sources */,
+				BB1A011229E0D4170001229A /* OrderHistoryView.swift in Sources */,
 				BBF1DDAD292476C900DE9902 /* MainView.swift in Sources */,
 				BBF1DDA129245D6100DE9902 /* WelcomeView.swift in Sources */,
 				BB7F84C429414BC2002AEE8B /* MenuViewModel.swift in Sources */,
